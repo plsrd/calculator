@@ -63,6 +63,7 @@ button:hover {
   -webkit-box-shadow: inset -4px -4px 5px 0px rgba(254, 254, 255, 0.75), inset 4px 4px 5px 0px rgba(198, 206, 218, 0.75);
   -moz-box-shadow:    inset -4px -4px 5px 0px rgba(254, 254, 255, 0.75), inset 4px 4px 5px 0px rgba(198, 206, 218, 0.75);
   box-shadow:         inset -4px -4px 5px 0px rgba(254, 254, 255, 0.75), inset 4px 4px 5px 0px rgba(198, 206, 218, 0.75);
+  cursor: pointer;
 }
 
 .previous-operand {
