@@ -47,7 +47,9 @@ function positiveNegative() {
 
 function appendInput(number) {
   if (number === '.' && currentOperand.includes('.')) return
-  currentOperand += number.toString();
+  if (currentOperand.length < 9) {
+    currentOperand += number.toString();
+  }
 }
 
 function  getDisplayNumber(number) {
