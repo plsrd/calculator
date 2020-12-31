@@ -27,6 +27,7 @@ body {
 }
 
 .output {
+  background-color: rgba(198, 206, 218, 0.25);
   min-height: 100px;
   width: 350px;
   grid-column: 1 / -1;
@@ -39,9 +40,9 @@ body {
   word-break: break-all;
   margin: 1em;
   border-radius: 20px;
-  -webkit-box-shadow: inset -4px -4px 5px 0px rgba(254, 254, 255, 0.75), inset 4px 4px 5px 0px rgba(198, 206, 218, 0.75);
-  -moz-box-shadow:    inset -4px -4px 5px 0px rgba(254, 254, 255, 0.75), inset 4px 4px 5px 0px rgba(198, 206, 218, 0.75);
-  box-shadow:         inset -4px -4px 5px 0px rgba(254, 254, 255, 0.75), inset 4px 4px 5px 0px rgba(198, 206, 218, 0.75);
+  -webkit-box-shadow: inset -4px -4px 5px 0px rgba(198, 206, 218, 0.75), inset 4px 4px 5px 0px rgba(254, 254, 255, 0.15);
+  -moz-box-shadow:    inset -4px -4px 5px 0px rgba(198, 206, 218, 0.75), inset 4px 4px 5px 0px rgba(254, 254, 255, 0.15);
+  box-shadow:         inset -4px -4px 5px 0px rgba(198, 206, 218, 0.75), inset 4px 4px 5px 0px rgba(254, 254, 255, 0.15);
 }
 
 button {
@@ -65,16 +66,17 @@ button:hover {
 }
 
 .previous-operand {
-  color: #EC7EDA;
+  color: #42cc9a;
   font-size: 1.5rem;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 4px rgba(198, 206, 218, 1);
 }
 
 .current-operand {
-  color: #EC7EDA;
+  color: #42cc9a;
   font-size: 2.5rem;
-  text-shadow: 3px 3px 4px rgba(202, 82, 183, 0.4) inset;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 4px rgba(198, 206, 218, 1);
 }
 
 .number {
